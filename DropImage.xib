@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16C32f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DropImage">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HZP-Oz-Sfr">
+                    <rect key="frame" x="0.0" y="300" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.09665512891783723" blue="0.027729529706763012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TxK-XW-5cN">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_icon_back_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wws-rR-VX6">
+                    <rect key="frame" x="25" y="125" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_icon_back_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="FSy-5L-ftJ">
+                    <rect key="frame" x="25" y="175" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_icon_back_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="hNQ-NM-wrN">
+                    <rect key="frame" x="25" y="225" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="92H-wO-bUE">
+                    <rect key="frame" x="1" y="100" width="98" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="向下滑动急停" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhW-Os-BkD">
+                            <rect key="frame" x="0.0" y="1" width="19" height="198"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.09665512892" blue="0.027729529709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="，请谨慎使用" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72A-LI-orP">
+                            <rect key="frame" x="79" y="1" width="19" height="198"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.09665512892" blue="0.027729529709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="BhW-Os-BkD" secondAttribute="bottom" constant="1" id="KMp-m0-4fU"/>
+                        <constraint firstItem="72A-LI-orP" firstAttribute="top" secondItem="92H-wO-bUE" secondAttribute="top" constant="1" id="OJL-ie-kE3"/>
+                        <constraint firstItem="72A-LI-orP" firstAttribute="width" secondItem="BhW-Os-BkD" secondAttribute="width" id="TQ6-zY-4Ke"/>
+                        <constraint firstItem="72A-LI-orP" firstAttribute="leading" secondItem="BhW-Os-BkD" secondAttribute="trailing" constant="60" id="YaZ-u7-koy"/>
+                        <constraint firstAttribute="trailing" secondItem="72A-LI-orP" secondAttribute="trailing" id="bOd-Jn-TaQ"/>
+                        <constraint firstItem="BhW-Os-BkD" firstAttribute="leading" secondItem="92H-wO-bUE" secondAttribute="leading" id="ees-Jk-0et"/>
+                        <constraint firstAttribute="bottom" secondItem="72A-LI-orP" secondAttribute="bottom" constant="1" id="gxN-Mp-o23"/>
+                        <constraint firstItem="BhW-Os-BkD" firstAttribute="top" secondItem="92H-wO-bUE" secondAttribute="top" constant="1" id="rbW-gg-gHP"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="急停" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSb-Th-Cf6">
+                    <rect key="frame" x="25" y="340" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="92H-wO-bUE" secondAttribute="bottom" constant="100" id="49b-Ul-UDt"/>
+                <constraint firstItem="92H-wO-bUE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="1" id="73P-Ms-BzR"/>
+                <constraint firstItem="92H-wO-bUE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="pY6-M4-MIN"/>
+                <constraint firstAttribute="trailing" secondItem="92H-wO-bUE" secondAttribute="trailing" constant="1" id="qm7-16-zO0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mUiAnimation1" destination="Wws-rR-VX6" id="hbG-v6-ilT"/>
+                <outlet property="mUiAnimation2" destination="FSy-5L-ftJ" id="kui-ow-6MW"/>
+                <outlet property="mUiAnimation3" destination="hNQ-NM-wrN" id="y6z-To-NNj"/>
+                <outlet property="mUiEndImage" destination="HZP-Oz-Sfr" id="xrZ-Xp-Udh"/>
+                <outlet property="mUiStartImage" destination="TxK-XW-5cN" id="dJH-qd-zwV"/>
+            </connections>
+            <point key="canvasLocation" x="-140" y="-408"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="title_icon_back_new.png" width="512" height="512"/>
+    </resources>
+</document>
